@@ -194,11 +194,11 @@ for line in topFile:
                 if typei[0] == 'H':
                     element = segments[4]
                     element = 'H'
-                elif typei[0] == 'B' and type[1] == 'R':
+                elif typei[0] == 'B' and typei[1] == 'R':
                     element = 'BR'
-                elif typei[0] == 'C' and type[1] == 'L':
+                elif typei[0] == 'C' and typei[1] == 'L':
                     element = 'CL'
-                elif typei[0] == 'A' and type[1] == 'L':
+                elif typei[0] == 'A' and typei[1] == 'L':
                     element = 'AL'
                 elif typei[0] == 'C':
                     element = 'C'
